@@ -1,14 +1,12 @@
 ## This contract implements the famous "Eight Ball Model"
 
-### About Eight Ball Model (Source)
+### About Eight Ball Model ([Source](https://en.wikipedia.org/wiki/Pyramid_scheme#The_.22eight_ball.22_model))
 
 Many pyramids are more sophisticated than the simple model. These recognize that recruiting a large number of others into a scheme can be difficult so a seemingly simpler model is used. In this model each person must recruit two others, but the ease of achieving this is offset because the depth required to recoup any money also increases. The scheme requires a person to recruit two others, who must each recruit two others, and so on.
 
 
 The "eight-ball" model contains a total of fifteen members. Note that in an arithmetic progression 1 + 2 + 3 + 4 + 5 = 15. The pyramid scheme in the picture in contrast is a geometric progression 1 + 2 + 4 + 8 = 15.
 Prior instances of this scheme have been called the "Airplane Game" and the four tiers labelled as "captain", "co-pilot", "crew", and "passenger" to denote a person's level. Another instance was called the "Original Dinner Party" which labeled the tiers as "dessert", "main course", "side salad", and "appetizer". A person on the "dessert" course is the one at the top of the tree. Another variant, "Treasure Traders", variously used gemology terms such as "polishers", "stone cutters", etc.
-
-Such schemes may try to downplay their pyramid nature by referring to themselves as "gifting circles" with money being "gifted". Popular schemes such as "Women Empowering Women"[3] do exactly this.
 
 Whichever euphemism is used, there are 15 total people in four tiers (1 + 2 + 4 + 8) in the scheme—with the Airplane Game as the example, the person at the top of this tree is the "captain", the two below are "co-pilots", the four below are "crew", and the bottom eight joiners are the "passengers".
 
