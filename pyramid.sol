@@ -23,7 +23,7 @@ contract EightBallModel {
     event Payout(address indexed _captain);
 
     function EightBallModel() {
-        uint256 LEVELS = 999999999999;
+        uint256 LEVELS = 0xFFFF;
         owner = msg.sender;
         balances[msg.sender] = LEVELS;
         participants[msg.sender] = Participant({
@@ -133,17 +133,18 @@ contract EightBallModel {
      // typically run on a CAPTAIN to be,
      // returns number of passengers on level 0
      function getNumberPassengers(address _address, uint _depth) internal constant returns (uint) {
-         if (_address == address(0x0)) return 0;
-         if (_depth == 0) return 1;
+         if (_address == address(0x0))
+            return 0;
+         if (_depth == 0)
+            return 1;
 
          Participant storage participant = participants[_address];
          return getNumberPassengers(participant.children[0], _depth - 1) +
                 getNumberPassengers(participant.children[1], _depth - 1);
      }
 
-     function tokensFromWei(uint256 ) internal constant returns (uint256 _amountWei) {
+     function tokensFromWei(uint256 _amountWei) internal constant returns (uint256) {
          require(_amountWei > TOKEN_FACTOR);
-        //  uint256 FACTOR = 10000000000000000;
          return _amountWei / TOKEN_FACTOR;
      }
 

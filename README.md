@@ -2,7 +2,7 @@
 
 ### About Eight Ball Model ([Source](https://en.wikipedia.org/wiki/Pyramid_scheme#The_.22eight_ball.22_model))
 
-Many pyramids are more sophisticated than the simple model. These recognize that recruiting a large number of others into a scheme can be difficult so a seemingly simpler model is used. In this model each person must recruit two others, but the ease of achieving this is offset because the depth required to recoup any money also increases. The scheme requires a person to recruit two others, who must each recruit two others, and so on.
+In this model each person must recruit two others, but the ease of achieving this is offset because the depth required to recoup any money also increases. The scheme requires a person to recruit two others, who must each recruit two others, and so on.
 
 
 The "eight-ball" model contains a total of fifteen members. Note that in an arithmetic progression 1 + 2 + 3 + 4 + 5 = 15. The pyramid scheme in the picture in contrast is a geometric progression 1 + 2 + 4 + 8 = 15.
